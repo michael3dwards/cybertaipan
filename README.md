@@ -213,6 +213,12 @@ Open the ubuntu software center by click the app button or pressing the Windows 
 
 In the "Installed" section, browse the list for suspicious software/games/hackingtools. Then click each one to remove and click remove.
 
+Alternatively you can remove from the terminal (as root) by typing:
+
+`apt remove -y <program>`
+
+Replacing `<program>` with what you want to remove. ie to remove Inkscape use this: `apt remove -y inkscape`
+
 ## Secure the network
 
 ### Activate firewall
