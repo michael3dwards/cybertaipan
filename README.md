@@ -78,7 +78,7 @@ In the terminal type:
 
 ### Add users that are needed to be there
 
-<video src=""></video>
+[add-user.webm](https://github.com/michael3dwards/cybertaipan/assets/29730059/430a3be4-3152-4da2-b11c-26143fd9f63b)
 
 In terminal (with root) type:
 
