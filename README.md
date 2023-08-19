@@ -12,8 +12,8 @@ Most things can be done from the Terminal (press the Windows key, and search for
 
 ## Overview
 
-1. Read readme file
-2. Enter team ID
+1. [Read readme file](#read-readme-file)
+2. [Enter team ID](#enter-team-id)
 3. Open a root terminal
 4. Do forensic questions
 5. Check users
