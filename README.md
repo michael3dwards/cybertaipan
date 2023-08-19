@@ -34,6 +34,8 @@ Note down users, if they are administrators or standard users, and what their pa
 
 Note down any PORTS that need to be open/closed.
 
+**Take a photo of the readme in case you get locked out and need the administrators password**
+
 ## Enter team ID
 
 Enter your team ID in otherwise the VM might lockdown.
@@ -64,12 +66,14 @@ If other parts are done, it may mess up the answers you need to get.
 
 ### Disable guest account
 
+In terminal (as root) type:
 
-Go to /etc/lightdm/lightdm.conf and add the line
+`echo "allow-guest=false" >> /etc/lightdm/lightdm.conf`
 
-allow-guest=false
+Type:
+`reboot`
 
-Then restart your session with sudo restart lightdm. This will log you out, so make sure you are not executing anything important.
+To reboot the machine. 
 
 ### Secure root login through openssh
 
