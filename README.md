@@ -14,7 +14,7 @@ Most things can be done from the Terminal (press the Windows key, and search for
 
 1. [Read readme file](#read-readme-file)
 2. [Enter team ID](#enter-team-id)
-3. Open a root terminal
+3. [Open a root terminal](#open-a-root-terminal)
 4. Do forensic questions
 5. Check users
 6. Check passwords
@@ -44,7 +44,7 @@ Coach should have the team ID emailed day of.
 
 [open-a-root-terminal.webm](https://github.com/michael3dwards/cybertaipan/assets/29730059/d1310e7d-0633-446b-82da-1606bfecb074)
 
-Open Terminal by pressing CTRL+ALT+T on the keyboard, or by clicking the Ubuntu logo on the dock on the left, and searching for Terminal and click.
+Open Terminal by pressing CTRL+ALT+T on the keyboard, or by clicking the app button on the dock on the left, and searching for Terminal and clicking on it.
 
 An icon will appear for it on dock that looks like a black console window, right click and select 'add to favourites' in case you close it, you just need to click this icon to open it again.
 
@@ -56,11 +56,14 @@ This will make you the "root" user which will allow you to do anything to config
 
 ## Do forensic questions
 
+**The forensic questions are located on the desktop and need to be attempted first!**
+
+If other parts are done, it may mess up the answers you need to get.
+
 ## Check users
 
 ### Disable guest account
 
-[watch]()
 
 Go to /etc/lightdm/lightdm.conf and add the line
 
