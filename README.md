@@ -70,9 +70,7 @@ Then restart your session with sudo restart lightdm. This will log you out, so m
 
 ### Secure root login through openssh
 
-In the terminal type:
-
-``
+[secure-root.webm](https://github.com/michael3dwards/cybertaipan/assets/29730059/699efb87-4e5e-4ac1-bef7-ec029bec3dea)
 
 ### Remove users not in readme file
 
@@ -101,6 +99,8 @@ If the user needs administrator privileges, add them to the `sudo` group by typi
 ## Do updates
 
 ### Update all the software to the latest version
+
+
 
 In terminal (as root) type:
 
