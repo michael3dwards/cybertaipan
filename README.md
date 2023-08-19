@@ -42,17 +42,54 @@ Coach should have the team ID emailed day of.
 
 ## Open a root terminal
 
+[watch]()
+
 Open Terminal by pressing CTRL+ALT+T on the keyboard, or by clicking the Ubuntu logo on the dock on the left, and searching for Terminal and click.
 
 An icon will appear for it on dock that looks like a black console window, right click and select 'add to favourites' in case you close it, you just need to click this icon to open it again.
 
 In the terminal, note the username (left of the @ symbol). You will need to look up the password for this user from the readme file.
 
-Type `sudo su` and press Enter on the keyboard. This will make you the "Root" user which will allow you to do anything to config the system. It saves you typing `sudo` in front of everything.
+Type `sudo su` and press Enter on the keyboard. You will be asked for the user's password. Type this in a press Enter on the keyboard.
+
+This will make you the "root" user which will allow you to do anything to config the system. It saves you typing `sudo` in front of everything command
 
 ## Do forensic questions
 
-This will prompt you for a password, 
+## Check users
+
+### Disable guest account
+
+[watch]()
+
+Go to /etc/lightdm/lightdm.conf and add the line
+
+allow-guest=false
+
+Then restart your session with sudo restart lightdm. This will log you out, so make sure you are not executing anything important.
+
+### Secure root login through openssh
+
+In the terminal type:
+
+``
+
+### Remove users not in readme file
+
+### Add users that are needed to be there
+
+In terminal (with root) type:
+
+`adduser <user>`
+
+`<user>` is the name of the user. Usernames are CASE-SENSITIVE!
+
+Set password as per the readme, if no password specified, make sure it meets minimum requirements.
+
+If the user needs administrator privileges, add them to the `sudo` group by typing:
+
+`usermod -aG sudo <user>`
+
+`<user>` is the name of the user. If they need to be part of another group replace `sudo` with group.
 
 
-[Back to Summary](#summary)
