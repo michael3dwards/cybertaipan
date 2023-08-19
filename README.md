@@ -78,6 +78,8 @@ In the terminal type:
 
 ### Add users that are needed to be there
 
+<video src=""></video>
+
 In terminal (with root) type:
 
 `adduser <user>`
