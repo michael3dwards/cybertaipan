@@ -167,7 +167,11 @@ In terminal (as root) type:
 
 ## Check files/programs
 
+Look for files in the terminal by typing (as root):
 
+`find / -name "*.<ext>"`
+
+Replacing `<ext>` with the filetype, ie mp3 for music, mp4 for video.
 
 ## Do updates
 
@@ -215,3 +219,12 @@ In the "Installed" section, browse the list for suspicious software/games/hackin
 In the terminal (as root) type:
 
 `apt install -y ufw; ufw enable`
+
+### Fix other potential network problems
+
+In terminal (as root) type:
+
+`sysctl -n net.ipv4.tcp_syncookies`
+`echo "net.ipv6.conf.all.disable_ipv6 = 1" >> /etc/sysctl.conf`
+`echo 0 > /proc/sys/net/ipv4/ip_forward`
+`echo "nospoof on" >> /etc/host.conf`
