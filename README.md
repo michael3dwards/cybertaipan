@@ -113,7 +113,7 @@ If the user needs administrator privileges, add them to the `sudo` group by typi
 
 ### Update all the software to the latest version
 
-
+[activate-firewall.webm](https://github.com/michael3dwards/cybertaipan/assets/29730059/f64f4d1b-d868-45d1-b321-93cba34b94b9)
 
 In terminal (as root) type:
 
