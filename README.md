@@ -137,6 +137,19 @@ The point of this is to make all the passwords strong.
 
 **REMEMBER: IF YOU CHANGE THE CURRENT USER THE ABOVE PASSWORD WITH BE YOUR NEW SUDO PASSWORD**
 
+### Set password policy
+
+In a terminal (as root) type:
+`gedit /etc/login.defs`
+
+Find the follow using the find tool (or press CTRL+F) and make sure the numbers match below:
+
+```
+PASS_MAX_DAYS 90
+PASS_MIN_DAYS 5
+PASS_WARN_AGE 7
+```
+
 ## Check files/programs
 
 
