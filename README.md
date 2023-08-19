@@ -164,6 +164,13 @@ In terminal (as root) type:
 
 This may take a little while.
 
+### Make sure updates as setup automatically
+
+In a terminal (as root) type:
+`software-properties-gtk`
+
+To set automatic updates, go to the Updates Tab and make sure ‘Automatically check for updates’ is set to ‘Daily’.
+
 ## Check software
 
 ### Make sure/add new software
@@ -177,6 +184,12 @@ Alternatively you can install from the terminal (as root) by typing:
 `apt install -y <program>`
 
 Replacing `<program>` with what you want to install. ie to install Inkscape use this: `apt install -y inkscape`
+
+### Remove software
+
+Open the ubuntu software center by click the app button or pressing the Windows key on the keyboard and typing `software` and clicking on the "shopping bag" looking orange icon.
+
+In the "Installed" section, browse the list for suspicious software/games/hackingtools. Then click each one to remove and click remove.
 
 ## Secure the network
 
