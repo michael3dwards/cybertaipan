@@ -107,6 +107,18 @@ If the user needs administrator privileges, add them to the `sudo` group by typi
 
 ## Check passwords
 
+### Change passwords
+
+[change-passwords.webm](https://github.com/michael3dwards/cybertaipan/assets/29730059/124a8e60-5f65-40d7-8ccb-7c737c4fcf7f)
+
+Open users and change all passwords to `Cyb3rT@!pan2023`.
+
+Make sure this doesn't violate rules in the readme. ie, you might be required to create a user with a particular password.
+
+The point of this is to make all the passwords strong.
+
+**REMEMBER: IF YOU CHANGE THE CURRENT USER THE ABOVE PASSWORD WITH BE YOUR NEW SUDO PASSWORD**
+
 ## Check files/programs
 
 ## Do updates
