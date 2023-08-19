@@ -77,6 +77,16 @@ Then restart your session with sudo restart lightdm. This will log you out, so m
 
 ### Remove users not in readme file
 
+[list-and-remove-users.webm](https://github.com/michael3dwards/cybertaipan/assets/29730059/dc0a3b07-8e66-49d7-9104-e6942eee4c04)
+
+Go into the ubuntu apps but clicking the app button on the dock.
+
+Types in `users` and click on the users entry.
+
+Click the unlock button and type in the user password to unlock the users screen.
+
+Remove any users that should be there. Not any users that are missing.
+
 ### Add users that are needed to be there
 
 [add-user.webm](https://github.com/michael3dwards/cybertaipan/assets/29730059/430a3be4-3152-4da2-b11c-26143fd9f63b)
@@ -97,7 +107,7 @@ If the user needs administrator privileges, add them to the `sudo` group by typi
 
 ## Check passwords
 
-## Check files
+## Check files/programs
 
 ## Do updates
 
