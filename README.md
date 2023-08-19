@@ -10,15 +10,49 @@ Most things can be done from the Terminal (press the Windows key, and search for
 
 **If you don't understand a word or term, Google it. Also, if you are unsure how to do something Google `'ubuntu [version] [thing you want to do]'`.**
 
-## Summary
+## Overview
 
-1. [Read the README](#read-the-readme)
-1. Do Forensic Questions (#do-forensic-questions)
+1. Read readme file
+2. Enter team ID
+3. Open a root terminal
+4. Do forensic questions
+5. Check users
+6. Check passwords
+7. Check files
+8. Do updates
+9. Check software
+10. Secure the network
+11. 
 
-## Read the README
+## Read readme file
 
-[Back to summary](#summary)
+**MAKE SURE TO DO THIS FIRST**
 
-## Do Forensic Questions
+Make notes of tasks for each sentence in the readme file.
 
-[Back to summary](#summary)
+Note down users, if they are administrators or standard users, and what their passwords are.
+
+Note down any PORTS that need to be open/closed.
+
+## Enter team ID
+
+Enter your team ID in otherwise the VM might lockdown.
+
+Coach should have the team ID emailed day of.
+
+## Open a root terminal
+
+Open Terminal by pressing CTRL+ALT+T on the keyboard, or by clicking the Ubuntu logo on the dock on the left, and searching for Terminal and click.
+
+An icon will appear for it on dock that looks like a black console window, right click and select 'add to favourites' in case you close it, you just need to click this icon to open it again.
+
+In the terminal, note the username (left of the @ symbol). You will need to look up the password for this user from the readme file.
+
+Type `sudo su` and press Enter on the keyboard. This will make you the "Root" user which will allow you to do anything to config the system. It saves you typing `sudo` in front of everything.
+
+## Do forensic questions
+
+This will prompt you for a password, 
+
+
+[Back to Summary](#summary)
