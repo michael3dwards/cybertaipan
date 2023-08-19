@@ -12,9 +12,9 @@ Most things can be done from the Terminal (press the Windows key, and search for
 
 ## Overview
 
-1. [Read readme file](#read-readme-file)
-2. [Enter team ID](#enter-team-id)
-3. [Open a root terminal](#open-a-root-terminal)
+1. Read readme file
+2. Enter team ID
+3. Open a root terminal
 4. Do forensic questions
 5. Check users
 6. Check passwords
@@ -22,7 +22,6 @@ Most things can be done from the Terminal (press the Windows key, and search for
 8. Do updates
 9. Check software
 10. Secure the network
-11. 
 
 ## Read readme file
 
