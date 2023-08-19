@@ -159,6 +159,12 @@ PASS_MIN_DAYS 5
 PASS_WARN_AGE 7
 ```
 
+### Set lockout policy on users
+
+In terminal (as root) type:
+
+`echo "auth required pam_tally2.so deny=5 onerr=fail unlock_time=1800" >> /etc/pam.d/common-auth`
+
 ## Check files/programs
 
 
