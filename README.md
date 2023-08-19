@@ -94,4 +94,21 @@ If the user needs administrator privileges, add them to the `sudo` group by typi
 
 `<user>` is the name of the user. If they need to be part of another group replace `sudo` with group.
 
+## Check passwords
+
+## Check files
+
+## Do updates
+
+### Update all the software to the latest version
+
+In terminal (as root) type:
+
+`apt update; apt -y upgrade`
+
+This may take a little while.
+
+## Check software
+
+## Secure the network
 
