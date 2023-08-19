@@ -123,6 +123,15 @@ In terminal (as root) type:
 
 Replace `<user>` with the user you are looking at.
 
+### Check things about a user
+
+In a terminal (as root) type:
+
+`whoami` to print your current username
+`users` to get the user names of users currently logged in to the current machine
+`who` to print information about users who are currently logged in
+`w` to display information about the users currently on the machine, and their processes.
+
 ## Check passwords
 
 ### Change passwords
