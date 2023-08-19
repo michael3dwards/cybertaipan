@@ -119,7 +119,7 @@ If the user needs administrator privileges, add them to the `sudo` group by typi
 
 In terminal (as root) type:
 
-`id <user>'
+`id <user>`
 
 Replace `<user>` with the user you are looking at.
 
