@@ -115,6 +115,14 @@ If the user needs administrator privileges, add them to the `sudo` group by typi
 
 `<user>` is the name of the user. If they need to be part of another group replace `sudo` with group.
 
+### Finding a user's uid
+
+In terminal (as root) type:
+
+`id <user>'
+
+Replace `<user>` with the user you are looking at.
+
 ## Check passwords
 
 ### Change passwords
@@ -131,6 +139,8 @@ The point of this is to make all the passwords strong.
 
 ## Check files/programs
 
+
+
 ## Do updates
 
 ### Update all the software to the latest version
@@ -142,6 +152,18 @@ In terminal (as root) type:
 This may take a little while.
 
 ## Check software
+
+### Make sure/add new software
+
+Open the ubuntu software center by click the app button or pressing the Windows key on the keyboard and typing `software` and clicking on the "shopping bag" looking orange icon.
+
+In the "Explore" section, click the Magnifying glass in the top left to search for software. Then click Install.
+
+Alternatively you can install from the terminal (as root) by typing:
+
+`apt install -y <program>`
+
+Replacing `<program>` with what you want to install. ie to install Inkscape use this: `apt install -y inkscape`
 
 ## Secure the network
 
