@@ -127,8 +127,11 @@ Replace `<user>` with the user you are looking at.
 In a terminal (as root) type:
 
 `whoami` to print your current username
+
 `users` to get the user names of users currently logged in to the current machine
+
 `who` to print information about users who are currently logged in
+
 `w` to display information about the users currently on the machine, and their processes.
 
 ## Check passwords
@@ -148,6 +151,7 @@ The point of this is to make all the passwords strong.
 ### Set password policy
 
 In a terminal (as root) type:
+
 `gedit /etc/login.defs`
 
 Find the follow using the find tool (or press CTRL+F) and make sure the numbers match below:
@@ -224,6 +228,9 @@ In the terminal (as root) type:
 In terminal (as root) type:
 
 `sysctl -n net.ipv4.tcp_syncookies`
+
 `echo "net.ipv6.conf.all.disable_ipv6 = 1" >> /etc/sysctl.conf`
+
 `echo 0 > /proc/sys/net/ipv4/ip_forward`
+
 `echo "nospoof on" >> /etc/host.conf`
