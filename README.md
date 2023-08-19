@@ -42,7 +42,7 @@ Coach should have the team ID emailed day of.
 
 ## Open a root terminal
 
-[watch]()
+https://github.com/michael3dwards/cybertaipan/assets/29730059/6e85a09a-2247-4e48-bfab-4d9d66e7dcb5
 
 Open Terminal by pressing CTRL+ALT+T on the keyboard, or by clicking the Ubuntu logo on the dock on the left, and searching for Terminal and click.
 
