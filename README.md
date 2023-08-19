@@ -79,6 +79,12 @@ To reboot the machine.
 
 [secure-root.webm](https://github.com/michael3dwards/cybertaipan/assets/29730059/699efb87-4e5e-4ac1-bef7-ec029bec3dea)
 
+In terminal (as root) type:
+
+`gedit /etc/ssh/sshd_config`
+
+Find 'PermitRootLogin` and make sure it's `no` and that it isn't commented out. Make sure there is not # in front of it.
+
 ### Remove users not in readme file
 
 [list-and-remove-users.webm](https://github.com/michael3dwards/cybertaipan/assets/29730059/dc0a3b07-8e66-49d7-9104-e6942eee4c04)
