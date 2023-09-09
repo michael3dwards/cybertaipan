@@ -18,10 +18,11 @@ Most things can be done from the Terminal (press the Windows key, and search for
 4. Do forensic questions
 5. Check users
 6. Check passwords
-7. Check files
-8. Do updates
-9. Check software
-10. Secure the network
+7. Check groups
+8. Check files
+9. Do updates
+10. Check software
+11. Secure the network
 
 ## Read readme file
 
