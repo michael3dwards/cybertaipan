@@ -82,7 +82,7 @@ In terminal (as root) type:
 
 `gedit /etc/ssh/sshd_config`
 
-Find 'PermitRootLogin` and make sure it's `no` and that it isn't commented out. Make sure there is not # in front of it.
+Find `PermitRootLogin` and make sure it's `no` and that it isn't commented out. Make sure there is not # in front of it.
 
 ### Remove users not in readme file
 
