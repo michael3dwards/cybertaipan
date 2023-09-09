@@ -168,6 +168,48 @@ In terminal (as root) type:
 
 `echo "auth required pam_tally2.so deny=5 onerr=fail unlock_time=1800" >> /etc/pam.d/common-auth`
 
+## Check groups
+
+### Add groups that need to be there
+
+In a terminal (as root) type:
+
+`addgroup <group>`
+
+`<group>` is the name of the group to be created.
+
+### Add a user to a group
+
+In a terminal (as root) type:
+
+`usermod -aG <group> <user>`
+
+`<user>` is the user and `<group>` is the group to add them too.
+
+### Remove a user from a group
+
+In a terminal (as root) type:
+
+`deluser <user> <group>`
+
+`<user>` is the user and `<group>` is the group to remove them from.
+
+### List groups that a user is in
+
+In a terminal (as root) type:
+
+`groups <user>`
+
+`<user>` is the user you want to check.
+
+### List all the users in a group
+
+In a terminal (as root) type:
+
+`getent group <group>`
+
+`<group>` is the group to check.
+
 ## Check files/programs
 
 Look for files in the terminal by typing (as root):
